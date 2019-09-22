@@ -1,13 +1,15 @@
-<section class="py-2">
-    <div class="row">
-        <div class="col-md-6 text-center">
-            <h4 class="display-4 mt-5 pt-5">
+
+    <div style="margin-top: 50px" class="row">
+        <div class="two-thirds column">
+            <h4 style="font-weight: bold">
                 The Scarlet Letter: Chapter Quizzes
             </h4>
             
-            <p class="lead"><b>3 unique quizzes</b> available for each chapter- easy, medium, and hard.</p>
-            <p>Perfect for testing your students' reading comprehension and kick-starting class discussions.</p>
-            <p>Emailed to you as a PDF upon purchase.</p>
+            <ul>
+            <li><class="lead"><b>3 unique quizzes</b> available for each chapter: <span style="color: green">easy</span>, <span style="color: orange">medium</span>, and <span style="color: red">hard</span>.</li>
+            <li>Perfect for testing your students' reading comprehension and kick-starting class discussions.</li>
+            <li>Emailed to you as a PDF after purchase.</li>
+            </ul>
             <script src="https://js.stripe.com/v3/"></script>
 
                 <form action="/charge" method="post">
@@ -25,16 +27,12 @@
                         // Hide default stripe button
                         document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
                     </script>
-                    <button type="submit" class="btn btn-outline-dark text-white btn-lg">Purchase for $3.99</button>
+                    <button class="button-primary" type="submit">Purchase for $3.99</button>
                 </form>
         </div>
 
-        <div class="col-md-6">
-            
-            
-            <img src="/img/marketplace.png" class="img-fluid" style="max-height: 400px; margin: 50px auto">
+        <div class="one-third column">            
+            <img src="/img/marketplace.png" style="display: block; max-width: 250px; border: solid black 2px; margin: 0 auto">
         </div>
     </div>
 
-
-</section>
