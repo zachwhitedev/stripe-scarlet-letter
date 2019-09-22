@@ -6,3 +6,5 @@ I used Heroku as my deployment solution- it can be viewed live here: https://fro
 
 If you'd like to dig deeper feel free to clone it and run "npm build && npm start."
 
+This app can be thought of as bare-bones template for the sale of any digital product.
+
