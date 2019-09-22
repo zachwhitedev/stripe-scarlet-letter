@@ -1,9 +1,13 @@
 <section class="py-2">
     <div class="row">
         <div class="col-md-6 text-center">
-            <h1 class="display-3 mt-3 pt-5">
-                This Is How I Feel Inside
-            </h1><p class="lead">A stunning new book by Bill Cosby</p>
+            <h4 class="display-4 mt-5 pt-5">
+                The Scarlet Letter: Chapter Quizzes
+            </h4>
+            
+            <p class="lead"><b>3 unique quizzes</b> available for each chapter- easy, medium, and hard.</p>
+            <p>Perfect for testing your students' reading comprehension and kick-starting class discussions.</p>
+            <p>Emailed to you as a PDF upon purchase.</p>
             <script src="https://js.stripe.com/v3/"></script>
 
                 <form action="/charge" method="post">
@@ -11,24 +15,24 @@
                         src="https://checkout.stripe.com/checkout.js"
                         class="stripe-button"
                         data-key="{{stripePublishableKey}}"
-                        data-amount="2500"
-                        data-name="Cosby Ebook"
-                        data-description="book by Zach White"
-                        data-image="img/marketplace.jpeg"
+                        data-amount="399"
+                        data-name="Scarlet Letter: Chapter Quizzes"
+                        data-description="3 Quizzes Per Chapter"
+                        data-image="img/marketplace.png"
                         data-locale="auto"
                     ></script>
                     <script>
                         // Hide default stripe button
                         document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
                     </script>
-                    <button type="submit" class="btn btn-outline-dark text-white btn-lg">Purchase</button>
+                    <button type="submit" class="btn btn-outline-dark text-white btn-lg">Purchase for $3.99</button>
                 </form>
         </div>
 
-        <div class="col-md-6" mt-8 pt-5"">
+        <div class="col-md-6">
             
             
-            <img src="/img/marketplace.jpeg" class="img-fluid">
+            <img src="/img/marketplace.png" class="img-fluid" style="max-height: 400px; margin: 50px auto">
         </div>
     </div>
 
